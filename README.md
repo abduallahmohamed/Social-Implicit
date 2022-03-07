@@ -13,22 +13,22 @@ Best-of-N (BoN) Average Displacement Error (ADE)/ Final Displacement Error (FDE)
 
 <br />
 
-Beside presenting the new metrics AMD/AMV which ensures a fair evaluation of the predictions quality, our method uses three key concepts: Social-Zones, Social-Cell and the Social-Loss. 
+Beside presenting <strong>the new metrics AMD/AMV</strong> which ensures a fair evaluation of the predictions quality, our method uses three key concepts: <strong>Social-Zones, Social-Cell and the Social-Loss </strong>. 
 <div align='center'>
 <img style="width: 60vw; height: auto;" src="images/Social-Implicit-Model.png"></img>
 </div>
 <br />
 
-The Social-Zones categorise observed agents based on their maximum observed speed. Each Social-Zone is processed by a Social-Cell.
-Social-Cell is a lightweight modular component with two streams global and local that creates a powerful embedding for the observations, illustration is below: 
+<strong>The Social-Zones</strong> categorise observed agents based on their maximum observed speed. Each Social-Zone is processed by a Social-Cell.<br />
+<strong>Social-Cell</strong> is a lightweight modular component with two streams global and local that creates a powerful embedding for the observations illustrated below:
 <div align='center'>
-<img style="width: 50vw; height: auto;" src="images/Social-Cell.png"></img>
+<img style="width: 40vw; height: auto;" src="images/Social-Cell.png"></img>
 </div>
 <br />
 
-Finally, the Social-Loss forces geometric constraints on the intra-distance between agents and the angles between agents to be close to the ground-truth.
+Finally, the <strong>Social-Loss</strong> forces geometric constraints on the intra-distance between agents and the angles between agents to be close to the ground-truth.
 <div align='center'>
-<img style="width: 50vw; height: auto;" src="images/Social-Loss.png"></img>
+<img style="width: 40vw; height: auto;" src="images/Social-Loss.png"></img>
 </div>
 <br />
 
