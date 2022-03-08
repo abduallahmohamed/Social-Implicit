@@ -2,7 +2,7 @@
 ### Abduallah Mohamed, Deyao Zhu, Warren Vu <br />
 ### Mohamed Elhoseiny* , Christian Claudel*
 ##### <sup>**</sup> Equal advising
-### Read full paper <a href="NA">Link NA yet</a>, Check the interactive demo <a href="https://www.abduallahmohamed.com/social-implicit-amdamv-adefde-demo">here</a>.
+### Read full paper <a href="https://arxiv.org/abs/2203.03057">here</a>, Check the interactive demo <a href="https://www.abduallahmohamed.com/social-implicit-amdamv-adefde-demo">here</a>.
 
 ### Social-Implicit
 <div align='center'>
