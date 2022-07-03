@@ -1,4 +1,4 @@
-# Social-Implicit: Rethinking Trajectory Prediction Evaluation and The Effectiveness of Implicit Maximum Likelihood Estimation
+# Social-Implicit: Rethinking Trajectory Prediction Evaluation and The Effectiveness of Implicit Maximum Likelihood Estimation, ECCV2022
 ### Abduallah Mohamed, Deyao Zhu, Warren Vu <br />
 ### Mohamed Elhoseiny* , Christian Claudel*
 ##### <sup>**</sup> Equal advising
