@@ -4,3 +4,4 @@ scikit_learn==1.0.1
 scipy==0.19.1
 torch==1.9.0+cu111
 tqdm==4.54.1
+pandas

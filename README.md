@@ -35,7 +35,7 @@ Finally, the <strong>Social-Loss</strong> forces geometric constraints on the in
 # Code Intructions 
 - On the first run of testing or training code, the code will save a pickled version of the processed data for faster production in the next time. 
 
-- We used pipreqs to generate the minimum needed dependcies ro tun the code. The necessary packages are in requirements.txt, you can install it by running:
+- We used pipreqs to generate the minimum needed dependcies to run the code. The necessary packages are in requirements.txt, you can install it by running:
 
 ```
 pip3 install -r requirements.txt
@@ -50,7 +50,7 @@ pip3 install -r requirements.txt
 - trajectory_augmenter.py contains the augmentations techniques for trajectories 
 - utils.py general utils used by the code 
 - pkls folder: stores the data pickles 
-- datasets folder: contains the ETH/UCY raw data
+- datasets folder: contains the ETH/UCY raw data and SDD data from [DAG net](https://github.com/alexmonti19/dagnet/blob/master/datasets/README.md)
 - checkpoint folder: contains the trained models
 
 ## Testing using pretarined models

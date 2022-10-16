@@ -117,6 +117,7 @@ for ROBUSTNESS in [0]:  #, -0.1, -0.01, +0.01, +0.1]:
         './checkpoint/social-implicit-zara1',
         './checkpoint/social-implicit-zara2',
         './checkpoint/social-implicit-univ',
+        './checkpoint/social-implicit-sdd',
     ]
     KSTEPS = 1000
     EASY_RESULTS = []
