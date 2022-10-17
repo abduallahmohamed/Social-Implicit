@@ -35,7 +35,7 @@ parser.add_argument('--obs_seq_len', type=int, default=8)
 parser.add_argument('--pred_seq_len', type=int, default=12)
 parser.add_argument('--dataset',
                     default='hotel',
-                    help='eth,hotel,univ,zara1,zara2')
+                    help='eth,hotel,univ,zara1,zara2,sdd')
 
 #Training specifc parameters
 parser.add_argument('--batch_size',
