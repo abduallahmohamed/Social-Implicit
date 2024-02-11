@@ -47,7 +47,7 @@ def seq_to_graph(seq_, seq_rel, norm_lap_matr=True):
                 A[s, h, k] = l2_norm
                 A[s, k, h] = l2_norm
         if norm_lap_matr:
-            G = nx.from_numpy_matrix(A[s, :, :])
+            G = nx.from_numpy_array(A[s, :, :])
             A[s, :, :] = nx.normalized_laplacian_matrix(G).toarray()
 
     # Create Local graphs
